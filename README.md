@@ -8,7 +8,8 @@ Lightweight **Fabric** performance modpack for Minecraft.
 
 | Minecraft | Pack Version |
 |-----------|--------------|
-| 26.2      | v1.0.3       |
+| 26.2      | v1.0.4       |
+| PvP 26.2  | v1.0.3       |
 | 1.21.11   | v1.0.2       |
 | 1.21.4    | v1.0.1       |
 | 1.21.1    | v1.0.0       |
