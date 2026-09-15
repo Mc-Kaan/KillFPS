@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
@@ -13,92 +14,225 @@
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
   <link rel="manifest" href="/site.webmanifest" />
-
 </head>
+
 <body>
   <header>
     <div class="container nav">
       <a href="index.html" class="logo">Kill<span>FPS</span>+ <span class="badge">Fabric</span></a>
-      <nav class="nav-links">
-        <a href="index.html" class="active">Home</a>
-        <a href="versions.html">Versions</a>
-        <a href="mods.html">Mods</a>
-        <a href="install.html">Install</a>
-        <a href="about.html">About</a>
-      </nav>
-    </div>
+
+```
+  <nav class="nav-links">
+    <a href="index.html" class="active">Home</a>
+    <a href="versions.html">Versions</a>
+    <a href="mods.html">Mods</a>
+    <a href="install.html">Install</a>
+    <a href="about.html">About</a>
+  </nav>
+</div>
+```
+
   </header>
 
   <main class="container">
     <section class="hero">
       <h1>Higher <span>FPS</span>, less lag</h1>
-      <p>
-        KillFPS+ is a lightweight Fabric performance modpack.
-        Built around Sodium, Lithium, Iris and carefully chosen optimization mods.
-      </p>
-      <div class="buttons">
-        <a class="btn btn-primary" href="https://modrinth.com/modpack/killfps" target="_blank" rel="noopener">Open on Modrinth</a>
-        <a class="btn btn-secondary" href="versions.html">View Versions</a>
-      </div>
-    </section>
 
-    <section class="features">
-      <div class="feature">
-        <div class="icon">⚡</div>
-        <h4>Higher FPS</h4>
-        <p>Sodium + ImmediatelyFast + Entity Culling</p>
-      </div>
-      <div class="feature">
-        <div class="icon">🧠</div>
-        <h4>Lower RAM</h4>
-        <p>FerriteCore + ModernFix optimizations</p>
-      </div>
-      <div class="feature">
-        <div class="icon">🌈</div>
-        <h4>Shader Ready</h4>
-        <p>Iris compatible with Sodium options</p>
-      </div>
-      <div class="feature">
-        <div class="icon">📦</div>
-        <h4>Carefully selected mods</h4>
-        <p>Focused only on performance & QoL</p>
-      </div>
-    </section>
+```
+  <p>
+    KillFPS+ is a lightweight Fabric performance modpack.
+    Built around Sodium, Lithium, Iris and carefully chosen optimization mods.
+  </p>
 
-    <section class="grid" style="margin-top:2.5rem;">
-      <div class="card">
-        <h3>26.2 <span class="ver">v1.0.3</span></h3>
-        <p>Latest release for Minecraft 26.2.</p>
-        <a class="btn btn-primary" href="https://modrinth.com/modpack/killfps/version/1.0.4" target="_blank" rel="noopener">Download</a>
+  <div class="buttons">
+    <a
+      class="btn btn-primary"
+      href="https://modrinth.com/modpack/killfps"
+      target="_blank"
+      rel="noopener"
+    >
+      Open on Modrinth
+    </a>
+
+    <a class="btn btn-secondary" href="versions.html">
+      View Versions
+    </a>
+  </div>
+
+  <!-- Modrinth Downloads -->
+  <div style="margin-top: 1.8rem;">
+    <a
+      href="https://modrinth.com/modpack/killfps"
+      target="_blank"
+      rel="noopener"
+      style="text-decoration: none; color: inherit;"
+    >
+      <div>
+        <div style="font-size: 0.85rem; opacity: 0.65; font-weight: 600;">
+          MODRINTH DOWNLOADS
+        </div>
+
+        <div
+          id="modrinth-downloads"
+          style="font-size: 1.8rem; font-weight: 800; margin-top: 0.15rem;"
+        >
+          Loading...
+        </div>
       </div>
-      <div class="card">
-        <h3>1.21.11 <span class="ver">v1.0.2</span></h3>
-        <p>Updated ports and forks for 1.21.11.</p>
-        <a class="btn btn-primary" href="https://modrinth.com/modpack/killfps/version/1.0.2" target="_blank" rel="noopener">Download</a>
-      </div>
-      <div class="card">
-        <h3>1.21.4 <span class="ver">v1.0.1</span></h3>
-        <p>Stable and widely used release.</p>
-        <a class="btn btn-primary" href="https://modrinth.com/modpack/killfps/version/1.0.1" target="_blank" rel="noopener">Download</a>
-      </div>
-      <div class="card">
-        <h3>1.21.1 <span class="ver">v1.0.0</span></h3>
-        <p>Original list adapted for 1.21.1.</p>
-        <a class="btn btn-primary" href="https://modrinth.com/modpack/killfps/version/1.0.0" target="_blank" rel="noopener">Download</a>
-      </div>
-    </section>
+    </a>
+  </div>
+</section>
+
+<section class="features">
+  <div class="feature">
+    <div class="icon">⚡</div>
+    <h4>Higher FPS</h4>
+    <p>Sodium + ImmediatelyFast + Entity Culling</p>
+  </div>
+
+  <div class="feature">
+    <div class="icon">🧠</div>
+    <h4>Lower RAM</h4>
+    <p>FerriteCore + ModernFix optimizations</p>
+  </div>
+
+  <div class="feature">
+    <div class="icon">🌈</div>
+    <h4>Shader Ready</h4>
+    <p>Iris compatible with Sodium options</p>
+  </div>
+
+  <div class="feature">
+    <div class="icon">📦</div>
+    <h4>Carefully selected mods</h4>
+    <p>Focused only on performance & QoL</p>
+  </div>
+</section>
+
+<section class="grid" style="margin-top:2.5rem;">
+  <div class="card">
+    <h3>26.2 <span class="ver">v1.0.3</span></h3>
+    <p>Latest release for Minecraft 26.2.</p>
+    <a
+      class="btn btn-primary"
+      href="https://modrinth.com/modpack/killfps/version/1.0.4"
+      target="_blank"
+      rel="noopener"
+    >
+      Download
+    </a>
+  </div>
+
+  <div class="card">
+    <h3>1.21.11 <span class="ver">v1.0.2</span></h3>
+    <p>Updated ports and forks for 1.21.11.</p>
+    <a
+      class="btn btn-primary"
+      href="https://modrinth.com/modpack/killfps/version/1.0.2"
+      target="_blank"
+      rel="noopener"
+    >
+      Download
+    </a>
+  </div>
+
+  <div class="card">
+    <h3>1.21.4 <span class="ver">v1.0.1</span></h3>
+    <p>Stable and widely used release.</p>
+    <a
+      class="btn btn-primary"
+      href="https://modrinth.com/modpack/killfps/version/1.0.1"
+      target="_blank"
+      rel="noopener"
+    >
+      Download
+    </a>
+  </div>
+
+  <div class="card">
+    <h3>1.21.1 <span class="ver">v1.0.0</span></h3>
+    <p>Original list adapted for 1.21.1.</p>
+    <a
+      class="btn btn-primary"
+      href="https://modrinth.com/modpack/killfps/version/1.0.0"
+      target="_blank"
+      rel="noopener"
+    >
+      Download
+    </a>
+  </div>
+</section>
+```
+
   </main>
 
-    <footer>
+  <footer>
     <div class="container footer-inner">
       <div class="footer-left">
-        <p>KillFPS+ · <a href="https://modrinth.com/modpack/killfps" target="_blank" rel="noopener">Modrinth</a> · Fabric</p>
-        <p style="margin-top:0.3rem;font-size:0.8rem;">https://kill-fps.vercel.app/</p>
-      </div>
-      <div class="footer-right">
-        <p><a href="https://discord.gg/PwjU3YpJ7g" target="_blank" rel="noopener">Discord</a></p>
-      </div>
-    </div>
+        <p>
+          KillFPS+ ·
+          <a
+            href="https://modrinth.com/modpack/killfps"
+            target="_blank"
+            rel="noopener"
+          >
+            Modrinth
+          </a>
+          · Fabric
+        </p>
+
+```
+    <p style="margin-top:0.3rem;font-size:0.8rem;">
+      https://kill-fps.vercel.app/
+    </p>
+  </div>
+
+  <div class="footer-right">
+    <p>
+      <a
+        href="https://discord.gg/PwjU3YpJ7g"
+        target="_blank"
+        rel="noopener"
+      >
+        Discord
+      </a>
+    </p>
+  </div>
+</div>
+```
+
   </footer>
+
+  <script>
+    async function updateModrinthDownloads() {
+      const downloadsElement = document.getElementById("modrinth-downloads");
+
+      try {
+        const response = await fetch(
+          "https://api.modrinth.com/v2/project/killfps"
+        );
+
+        if (!response.ok) {
+          throw new Error("Modrinth API request failed");
+        }
+
+        const data = await response.json();
+
+        downloadsElement.textContent =
+          Number(data.downloads).toLocaleString("en-US");
+
+      } catch (error) {
+        console.error("Could not load Modrinth downloads:", error);
+        downloadsElement.textContent = "Unavailable";
+      }
+    }
+
+    // Load immediately
+    updateModrinthDownloads();
+
+    // Update every 5 minutes
+    setInterval(updateModrinthDownloads, 5 * 60 * 1000);
+  </script>
+
 </body>
 </html>
